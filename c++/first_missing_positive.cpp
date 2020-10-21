@@ -1,3 +1,8 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
 class Solution {
 public:
     void ssswap(vector<int>& nums, int i, int j) {
@@ -25,3 +30,11 @@ public:
         return lens+1;
     }
 };
+
+int main(){
+    Solution s;
+    int b[7] = {3,4,5,6,87,9,10};
+    std::vector<int> v(b, b+7);
+    t = s.firstMissingPositive(v);
+    std::cout<<t;
+}
