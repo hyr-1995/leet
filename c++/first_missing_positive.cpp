@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 class Solution {
 public:
     void ssswap(vector<int>& nums, int i, int j) {
