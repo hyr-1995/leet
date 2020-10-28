@@ -7,7 +7,7 @@ def encode_string(istring):
 
     s = ""
     for i in range(26):
-        s += chr(ord('a')+i)*initval[i]
+        s += chr(ord('a')+i)*initval[i] 
 
     return s
 
